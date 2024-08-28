@@ -1,6 +1,5 @@
-// src/ItemList.js
 import React, { useState } from "react";
-import "../App.css"; // Ensure this import is here
+import "../App.css"; 
 
 function ItemList() {
   const [items, setItems] = useState([]);
